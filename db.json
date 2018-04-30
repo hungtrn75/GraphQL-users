@@ -1,13 +1,32 @@
 {
     "users": [{
-            "id": "abc",
-            "firstName": "long",
-            "age": 21
+            "id": "long",
+            "firstName": "Long",
+            "age": 21,
+            "companyId": "1"
         },
         {
-            "id": "def",
-            "firstName": "vuong",
-            "age": 21
+            "id": "vuong",
+            "firstName": "Vuong",
+            "age": 21,
+            "companyId": "2"
+        },
+        {
+            "id": "hung",
+            "firstName": "Hung",
+            "age": 22,
+            "companyId": "2"
+        }
+    ],
+    "companies": [{
+            "id": "1",
+            "name": "Google",
+            "description": "search"
+        },
+        {
+            "id": "2",
+            "name": "Facebook",
+            "description": "social"
         }
     ]
 }
